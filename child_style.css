@@ -1,0 +1,12 @@
+.lp-home-banner-with-loc {
+    background-image: var(--home-banner-image) !important;
+        /* Full-screen background settings */
+        background-size: cover;         /* Ensures the image covers the entire element */
+        background-position: center;    /* Centers the image */
+        background-repeat: no-repeat;   /* Prevents the image from repeating */
+        background-attachment: fixed;   /* Ensures a parallax effect (optional) */
+        
+        /* Ensure the element takes full viewport height */
+        height: 100vh;                  /* Full viewport height */
+        width: 100%;                    /* Full width of the screen */
+}
